@@ -11,7 +11,7 @@ Before including `getid3ex.php` to your script make sure to define `GETID3_INCLU
 <?php
 
 define("GETID3_INCLUDEPATH", __DIR__ . "/getid3/");
-require __DIR__ . "/getid3.php";
+require __DIR__ . "/getid3ex.php";
 
 $filename = __DIR__ . "/song.mp3";
 $out = __DIR__ . "/song_new.mp3";
